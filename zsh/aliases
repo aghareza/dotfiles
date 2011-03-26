@@ -1,0 +1,4 @@
+alias ll='ls -l'
+
+alias gs='git status'
+alias gh='git hist'
