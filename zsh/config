@@ -1,0 +1,16 @@
+bindkey ^b vi-backward-word
+bindkey ^f vi-forward-word
+
+export GREP_OPTIONS='--color'
+export EDITOR=vim
+
+HISTFILE=~/.zsh_history
+HISTSIZE=1000
+SAVEHIST=1000
+
+autoload -U compinit
+compinit
+
+export PROMPT='%m:%~%# '
+
+
