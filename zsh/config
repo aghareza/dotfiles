@@ -13,4 +13,4 @@ compinit
 
 export PROMPT='%m:%~%# '
 
-
+[[ -s "/home/$USER/.rvm/scripts/rvm" ]] && source "/home/$USER/.rvm/scripts/rvm"
