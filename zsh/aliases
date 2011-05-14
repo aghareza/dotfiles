@@ -12,3 +12,6 @@ alias gk='gitk --all&'
 alias gx='gitx --all'
 alias gh='git hist'
 
+
+# project aliaes
+alias mc='cd ~/code/minecraft'
