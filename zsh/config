@@ -12,5 +12,6 @@ autoload -U compinit
 compinit
 
 export PROMPT='%m:%~%# '
+export TERM=xterm-256color
 
 [[ -s "/home/$USER/.rvm/scripts/rvm" ]] && source "/home/$USER/.rvm/scripts/rvm"
