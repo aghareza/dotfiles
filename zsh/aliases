@@ -15,3 +15,4 @@ alias gh='git hist'
 
 # project aliaes
 alias mc='cd ~/code/minecraft'
+alias code='cd ~/code'
