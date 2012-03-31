@@ -1,5 +1,8 @@
 alias ll='ls -l'
 alias cl='clear'
+alias vup='vagrant up'
+alias vssh='vagrant ssh'
+alias vhalt='vagrant halt'
 
 # git aliases
 alias gs='git status '
