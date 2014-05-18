@@ -14,6 +14,7 @@ compinit
 export PROMPT='%m:%~%# '
 export TERM=xterm-256color
 
-export PATH=/usr/local/bin:$PATH
+export PATH=/usr/local/bin:/usr/local/sbin/:$PATH
 
-[[ -s "/Users/$USER/.rvm/scripts/rvm" ]] && source "/Users/$USER/.rvm/scripts/rvm"
+eval "$(rbenv init -)"
+
