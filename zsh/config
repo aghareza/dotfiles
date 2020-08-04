@@ -5,6 +5,9 @@ HISTFILE=~/.zsh_history
 HISTSIZE=1000
 SAVEHIST=1000
 
+
+unset GREP_OPTIONS
+
 export PROMPT='%m:%~%# '
 export TERM=xterm-256color
 export EDITOR=vim
