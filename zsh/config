@@ -7,7 +7,6 @@ SAVEHIST=1000
 
 export PROMPT='%m:%~%# '
 export TERM=xterm-256color
-export GREP_OPTIONS='--color'
 export EDITOR=vim
 export PATH=/usr/local/bin:/usr/local/sbin/:$PATH
 
