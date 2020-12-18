@@ -8,6 +8,8 @@ SAVEHIST=1000
 
 unset GREP_OPTIONS
 
+function aomv { mv ~/Downloads/input.txt "${PWD##*/}"_input }
+
 export PROMPT='%m:%~%# '
 export TERM=xterm-256color
 export EDITOR=vim
